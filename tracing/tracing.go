@@ -1,3 +1,5 @@
+//go:build !notracing
+
 // tracing provides high level method tracing for the [routing.Routing] API.
 // Each method of the API has a corresponding method on [Tracer] which return either a defered wrapping callback or just defered callback.
 package tracing
